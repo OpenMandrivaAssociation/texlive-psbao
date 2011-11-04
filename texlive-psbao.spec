@@ -46,6 +46,7 @@ development of psgo, and uses PSTricks to draw the diagrams.
 %doc %{_texmfdistdir}/doc/latex/psbao/README
 %doc %{_texmfdistdir}/doc/latex/psbao/psbaomanual.pdf
 %doc %{_texmfdistdir}/doc/latex/psbao/psbaomanual.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +57,5 @@ development of psgo, and uses PSTricks to draw the diagrams.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
