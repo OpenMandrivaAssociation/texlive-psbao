@@ -1,6 +1,6 @@
 Name:		texlive-psbao
 Version:	55013
-Release:	1
+Release:	2
 Summary:	Draw Bao diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/psbao
