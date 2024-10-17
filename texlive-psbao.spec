@@ -3,7 +3,7 @@ Version:	55013
 Release:	2
 Summary:	Draw Bao diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/psbao
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/psbao
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/psbao.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/psbao.doc.r%{version}.tar.xz
